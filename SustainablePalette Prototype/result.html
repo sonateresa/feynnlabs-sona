@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainable Palette - Results</title>
+</head>
+<body>
+    <h1>Analysis Result</h1>
+    <h2>Recommended products for '{{ product_name }}':</h2>
+    <ul>
+        {% for product in recommended_products %}
+            <li>{{ product }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
